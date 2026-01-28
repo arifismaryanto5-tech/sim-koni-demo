@@ -1,0 +1,10 @@
+function login() {
+  const u = document.getElementById("username").value;
+  const p = document.getElementById("password").value;
+
+  if (p === "123456" && (u === "admin" || u === "superadmin")) {
+    window.location.href = "dashboard.html";
+  } else {
+    alert("Login gagal");
+  }
+}

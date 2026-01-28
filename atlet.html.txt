@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Atlet</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="sidebar">
+  <h3>SIM KONI</h3>
+  <a href="dashboard.html">Dashboard</a>
+</div>
+
+<div class="content">
+<h1>Data Atlet</h1>
+<table>
+<tr><th>No</th><th>Nama</th><th>Club</th></tr>
+<tr><td>1</td><td>Ahmad</td><td>Batang Karate Club</td></tr>
+<tr><td>2</td><td>Dewi</td><td>Garuda Atletik</td></tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | SIM KONI Kabupaten Batang</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+  <div class="login-box">
+    <img src="assets/logo-koni.png" class="logo">
+    <h2>SIM KONI Kabupaten Batang</h2>
+
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+
+    <p class="hint">
+      superadmin / admin<br>
+      password: 123456
+    </p>
+  </div>
+
+<script src="js/auth.js"></script>
+</body>
+</html>
